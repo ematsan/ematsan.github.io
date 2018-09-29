@@ -1,0 +1,68 @@
+
+
+.storys{
+	background-color: rgb(0,81,115);
+	background-image: url(../img/logo-shape.png);
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	color: white;
+}
+
+.storys .story{
+	padding-left: 20px;
+	position: relative;
+}
+
+.story .sel{
+	position: absolute;
+	right: 0%;
+	top: 50%;
+  transform: translate(0, -50%);
+}
+
+.story ul{
+  list-style-type: none;
+	padding: 50px;
+	text-align: left;
+	padding-top: 20%;
+	padding-bottom: 20%;
+
+}
+
+.story li{
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
+
+.story h1{
+	padding-bottom: 40px;
+}
+
+.story .hr{
+	width: 50px;
+	height: 2px;
+	background-color: rgb(138,226,226);
+}
+
+.help .call{
+	text-align: center;
+	color: black;
+	background-color: rgb(256,256,256);
+}
+
+.help .call button{
+	background-color: rgb(255,81,81);
+	border: 0;
+	border-radius: 4px;
+	height: 60px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.help .call h4{
+	padding: 0;
+	margin: 0;
+  margin-top: 40px;
+	font-weight: 800;
+	line-height: 1em;
+}

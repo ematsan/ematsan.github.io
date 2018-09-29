@@ -1,0 +1,52 @@
+.action{
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.action .title {
+	padding: 100px;
+}
+
+.action .subtitle{
+	position: relative
+}
+
+.action .first{	background-image: url(../img/heart.png);}
+.action .second{ background-image: url(../img/massage-2.png);}
+.action .third{	background-image: url(../img/nurses.png);}
+.action .fourth{background-image: url(../img/therapy.png);}
+
+.action .first,
+.action .second,
+.action .third,
+.action .fourth
+{
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 150px;
+	font-weight: 800;
+	margin-bottom: 10px;
+	line-height: normal;
+	vertical-align: middle;
+}
+
+.action .t2{
+	display: table-cell;
+	margin: auto;
+	vertical-align:middle;
+	height: 150px;
+	width: 350px;
+}
+
+.action  h5{
+	line-height: 1;
+	font-weight: 800;
+}
+
+.action  h4{
+	font-weight: 800;
+}
+
+.action p{
+	font-weight: bold;
+}

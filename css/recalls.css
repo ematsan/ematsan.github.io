@@ -1,0 +1,66 @@
+.recalls{
+	text-align: center;
+}
+
+.recalls .first{background-image: url(../img/user-pic.png);}
+.recalls .second{background-image: url(../img/user-pic2.png);}
+.recalls .third{background-image: url(../img/user-pic.png);}
+.recalls .fourth{background-image: url(../img/user-pic.png);}
+.recalls .fiveth{background-image: url(../img/user-pic2.png);}
+.recalls .sixth{background-image: url(../img/user-pic.png);}
+
+.recalls .first,
+.recalls .second,
+.recalls .third,
+.recalls .fourth,
+.recalls .fiveth,
+.recalls .sixth{
+	background-repeat: no-repeat;
+	background-position-x:  97%;
+	background-position-y: 70%;
+	padding-bottom: 80px;
+	position: relative;
+}
+
+
+.recall{
+	text-align: left;
+	background-color: rgba(11,42,55,0.2);
+	border-radius: 0px;
+	display: block;
+	padding: 20px;
+	line-height: 1em;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.first .recall::after,
+.recalls .second .recall::after,
+.recalls .third .recall::after,
+.recalls .fourth .recall::after,
+.recalls .fiveth .recall::after,
+.recalls .sixth .recall::after{
+	content: '';
+	position: absolute;
+	right: 0px;
+	bottom: 119px;
+	border: 15px solid transparent;
+	border-right: 15px solid rgba(11,42,55,0.2);
+	border-top: 15px solid rgba(11,42,55,0.2);
+}
+
+.recalls h4{
+	font-weight: 800;
+	padding: 70px;
+	display: block;
+}
+
+
+.author{
+	text-align: right;
+	padding-right: 20%
+}
+
+.author p{
+	line-height: 1em;
+}

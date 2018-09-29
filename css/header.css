@@ -1,0 +1,93 @@
+/*шапка*/
+
+header {
+	background-image: url(../img/header.png);
+  background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+  max-width: 1440px;
+ 	margin: 0 auto;
+}
+
+header .container{	background-color: rgba(40, 37, 38, 0.45);}
+
+header .logo{
+	 background-image: url(../img/logo.png);
+	 background-repeat: no-repeat;
+	 background-position: 10px 20px;
+	 padding-left: 100px ;
+	 padding-bottom: 5px;
+	 font-size: 2em;
+	 font-weight: bold;
+	 color: white;
+	 display: inline-block;
+ }
+
+header .button { 	font-size: 0.5em; }
+
+header .button i{
+	position: relative;
+	top: 4px;
+	right: 7px;
+}
+
+header .button span{
+	position: relative;
+	top: -2px;
+}
+
+header .nav .button{
+	border: 0;
+	text-transform:inherit;
+}
+
+header .nav {
+ text-align: right;
+ padding-top: 30px;
+ padding-right: 10px;
+}
+
+header .text{
+	text-align: center;
+	padding: 15% 15%;
+	color: rgb(256,256,256);
+}
+
+header .text h2{
+	font-weight: 900;
+	color: rgb(138,226,226);
+	margin-bottom: 10px;
+}
+
+header .text h4{
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+header .text h6{
+	font-weight: 500;
+	margin-bottom: 1em;
+}
+
+header .text span{
+	color: rgb(138,226,226);
+}
+
+header .text button{
+	background-color: rgb(255,81,81);
+	border: 0;
+	border-radius: 4px;
+	height: 60px;
+}
+
+.baner{
+	width: 100%;
+	background-color: rgba(40, 37, 38, 0.1);
+	text-align: center;
+  padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.baner span{
+	color: rgb(138,226,226);
+}
