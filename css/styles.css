@@ -1,6 +1,6 @@
 /* подключение шрифтов и настройка блоков */
 <style>
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');	 
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 </style>
 
 html {
@@ -113,6 +113,12 @@ img{
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 1200px){
+  .steps h1{
+		font-weight: 600;
+		font-size: 4rem;
+	}
+}
 
 @media screen and (max-width: 1000px){
 	.one.column,
@@ -120,9 +126,16 @@ img{
 	.two.columns,
 	.three.columns { width: 100%; margin-left: 2%; float: none;}
 	.steps h1{
-		font-weight: 600;
-		font-size: 4rem;
+		font-weight: 400;
+		font-size: 3.5rem;
 	}
+
+  .steps .arowr1,
+  .steps .arowr2,
+  .steps .arowl1,
+  .steps .arowl2{
+    opacity: 0;
+  }
 }
 
 @media screen and (max-width: 800px){
@@ -130,7 +143,7 @@ img{
   .five.columns { width: 100%; margin-left: 1%; float: none;}
 	.steps h1{
 		font-weight: 400;
-		font-size: 2.5rem;
+		font-size: 3rem;
 	}
 	.steps button{
 		font-size: 1rem;
@@ -145,4 +158,9 @@ img{
   .ten.columns,
   .eleven.columns,
   .twelve.columns  { width: 100%; margin-left: .5%; float: none;}
+
+  .story .sel .name{
+  	height: auto;
+    padding-bottom: 50px;
+  }
 }
