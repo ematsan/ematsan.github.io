@@ -19,7 +19,7 @@
 	background-position-x:  97%;
 	background-position-y: 70%;
 	padding-bottom: 80px;
-	position: relative;
+	overflow: hidden;
 }
 
 
@@ -31,19 +31,14 @@
 	padding: 20px;
 	line-height: 1em;
 	margin-bottom: 20px;
-	overflow: hidden;
+	position: relative;
 }
 
-.first .recall::after,
-.recalls .second .recall::after,
-.recalls .third .recall::after,
-.recalls .fourth .recall::after,
-.recalls .fiveth .recall::after,
-.recalls .sixth .recall::after{
+.recall::after{
 	content: '';
 	position: absolute;
 	right: 0px;
-	bottom: 119px;
+	bottom: -30px;
 	border: 15px solid transparent;
 	border-right: 15px solid rgba(11,42,55,0.2);
 	border-top: 15px solid rgba(11,42,55,0.2);

@@ -11,13 +11,16 @@
 .storys .story{
 	padding-left: 20px;
 	position: relative;
+	border: 1 solid black;
+	display: table;
+	vertical-align:middle;
+	margin: auto;
 }
 
-.story .sel{
-	position: absolute;
-	right: 0%;
-	top: 50%;
-  transform: translate(0, -50%);
+.story .sel .name{
+	display: table-cell;
+	vertical-align:bottom;
+	height: 850px;
 }
 
 .story ul{
