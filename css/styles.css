@@ -1,7 +1,8 @@
 /* подключение шрифтов и настройка блоков */
-<style>
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
-</style>
+@font-face {
+ font-family: 'Maven Pro'; /* Гарнитура шрифта */
+ src: url('https://fonts.googleapis.com/css?family=Maven+Pro'); /* Путь к файлу со шрифтом */
+}
 
 html {
   font-size: 62.5%; }
